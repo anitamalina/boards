@@ -12,7 +12,7 @@ function Nav() {
     return (
         <Router>
             <div>
-                <nav className="navigation-bar">
+                <nav className="nav">
                     <ul>
                         <li>
                             <Link to="/">Dashboard</Link>
