@@ -177,6 +177,11 @@ p{
   --grey-color-40: hsl(0, 0%, 77%, 0.4); 
   --grey-color-20: hsl(0, 0%, 77%, 0.2); 
 
+
+  /* White Colors */
+  --white-color: hsl(0, 0%, 100%);      /* #FFFFFF */ 
+  --white-color-85: hsl(0, 0%, 15%);
+
   /* Labels */
   --nation-color: hsl(4, 59%, 69%);     /* #DE574E */
   --world-color: hsl(48, 84%, 64%);     /* #F0D158 */

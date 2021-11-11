@@ -1,0 +1,15 @@
+@import url(./../../index.css);
+
+button {
+    width: 135px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: var(--white-color);
+    border-style: solid;
+    color: var(--white-color);
+    background-color: var(--accented-color-80);
+}
+
+.addbutton {
+    color: black;
+}

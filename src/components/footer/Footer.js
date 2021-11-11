@@ -1,8 +1,14 @@
 import React from 'react'
+import AddButton from '../buttons/AddButton'
+import './footer.css'
 
 function Footer() {
     return (
-        <p>Footer</p>
+        <div>
+            <footer className="footer">
+                < AddButton />
+            </footer>
+        </div>
     )
 }
 
