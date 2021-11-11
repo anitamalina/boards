@@ -1,10 +1,10 @@
 import React from 'react'
-import './addbutton.css'
+import './../buttons/buttons.css'
 
 function AddButton() {
     return (
-        <div classname="addbutton">
-            <p>Add idea</p>
+        <div className="addbutton">
+            <button>Add idea</button>
         </div>
     )
 }
