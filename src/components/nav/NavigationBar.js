@@ -1,14 +1,14 @@
 import React from 'react'
-import './nav.css'
+import './NavigationBar.css'
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 
 // Screens
-import Dashboard from './../../screens/Dashboard'
-import Articles from './../../screens/Articles'
-import Ideas from './../../screens/Ideas'
-import TeamPlan from './../../screens/TeamPlan'
+import Dashboard from '../../screens/Dashboard'
+import Articles from '../../screens/Articles'
+import Ideas from '../../screens/Ideas'
+import TeamPlan from '../../screens/TeamPlan'
 
-function Nav() {
+function NavigationBar() {
     return (
         <Router>
             <div>
@@ -39,4 +39,4 @@ function Nav() {
     )
 }
 
-export default Nav
+export default NavigationBar

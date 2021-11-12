@@ -1,13 +1,13 @@
 import React from 'react'
 
 // Components
-import Nav from './components/nav/Nav'
+import NavigationBar from './components/nav/NavigationBar'
 import Footer from './components/footer/Footer'
 
 function App() {
   return (
     <div>
-      <Nav /> 
+      <NavigationBar /> 
       <Footer />
     </div>
   )
